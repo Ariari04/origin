@@ -23,10 +23,11 @@ int main() {
 	for (i = m-1; i > 0; --i) {
 		swap(arr2[i], arr2[i - 1]);
 	}
+	fout << m << "\n";
 	for (i = 0; i < m; ++i) {
 		fout << arr2[i] << " ";
 	}
-	fout << endl;
+	fout << endl <<n<<"\n";
 	for (i = 0; i < n; ++i) {
 		fout << arr1[i] << " ";
 	}
