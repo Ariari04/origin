@@ -31,6 +31,8 @@ int main() {
 	for (i = 0; i < n; ++i) {
 		fout << arr1[i] << " ";
 	}
+	delete[] arr1;
+	delete[] arr2;
 
 
 }
